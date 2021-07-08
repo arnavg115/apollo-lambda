@@ -1,0 +1,13 @@
+{
+  "name": "apollo-netlify-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "netlify-lambda serve src/lambda"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.25.2",
+    "graphql": "^15.5.1"
+  }
+}
