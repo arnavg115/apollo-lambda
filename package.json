@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "netlify-lambda serve src/lambda"
+    "start": "netlify-lambda serve src/lambda",
+    "build": "netlify-lambda build src/lambda"
   },
   "dependencies": {
     "apollo-server-lambda": "^2.25.2",
